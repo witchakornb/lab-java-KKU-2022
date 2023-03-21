@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         HitBehavior my_hit = HitBehaviorFactory.createHitBehavior("hitbyTail");
         System.out.println("Hit By Tail:"+my_hit.hit());
+        System.out.println("dd");
         List<HitBehavior> hits = new ArrayList<>();
         hits.add(HitBehaviorFactory.createHitBehavior("hitbyarm"));
         hits.add(HitBehaviorFactory.createHitBehavior("hitbytail"));
